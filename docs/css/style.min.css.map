@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "D:/Program Files (x86)/hugo/mysite/my_website",
+	"sourceRoot": "D:/Programming Software/Programs of VS Code/Homepage/HuilingLiu.github.io",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/css/_variables.scss",
