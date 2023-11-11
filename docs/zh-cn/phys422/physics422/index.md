@@ -16,7 +16,7 @@
         </div>
         <div class="details-content">
             <div class="admonition-content"><div  align="center">    
- <img src="http://home.ustc.edu.cn/~lhl2718281/assets/images/meme.png" alt="图片名称" align=center />
+ <img src="/assets/images/meme.png" alt="图片名称" align=center />
 </div>
 </div>
         </div>

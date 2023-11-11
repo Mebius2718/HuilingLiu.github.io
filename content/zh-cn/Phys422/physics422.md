@@ -33,7 +33,7 @@ categories: [physics422, astro]
 
 {{< admonition type=tip title="meme" open=false >}}
 <div  align="center">    
- <img src="http://home.ustc.edu.cn/~lhl2718281/assets/images/meme.png" alt="图片名称" align=center />
+ <img src="/assets/images/meme.png" alt="图片名称" align=center />
 </div>
 {{< /admonition >}}
 

@@ -54,7 +54,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "小梦的主页"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/~lhl2718281/logo/logo.jpg"]
+  images = ["/logo/logo.jpg"]
 
   # 页面头部导航栏配置
   [params.header]
@@ -116,7 +116,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-    svgFavicon = "/~lhl2718281/logo/logo.jpg"
+    svgFavicon = "/logo/logo.jpg"
     # Android 浏览器主题色
     themeColor = "#ffffff"
     # Safari 图标颜色
@@ -156,7 +156,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "/~lhl2718281/logo/logo.jpg"
+      avatarURL = "/logo/logo.jpg"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "Huiling Liu(刘会凌)"
       # 主页显示的网站副标题 (允许 HTML 格式)
@@ -184,28 +184,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Instagram = ""
     Facebook = ""
     Telegram = ""
-    cv = "/~lhl2718281/docs/HuilingLiu_CV.pdf"
-    grade = "/~lhl2718281/docs/grade.pdf"
+    cv = "/docs/HuilingLiu_CV.pdf"
+    grade = "/docs/grade.pdf"
     school = "https://en.ustc.edu.cn/"
     # Phone = ""
     # Email = "lhl2718281@mail.ustc.edu.cn"
     RSS = false # 
-
-  # [params.social.cv]
-  #   # 你的社交 ID
-  #   id = "HuilingLiu_CV.pdf"
-  #   # 你的社交链接的前缀
-  #   prefix = "../../~lhl2718281/docs/"
-  #   # 当鼠标停留在图标上时的提示内容
-  #   title = "Curriculum Vitae"
-
-  # [params.social.grade]
-  #   # 你的社交 ID
-  #   id = "grade.pdf"
-  #   # 你的社交链接的前缀
-  #   prefix = "../../~lhl2718281/docs/"
-  #   # 当鼠标停留在图标上时的提示内容
-  #   title = "Grades"
     
   #  文章页面全局配置
   [params.page]
