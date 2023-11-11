@@ -1,0 +1,276 @@
+---
+title: "Problem Set 4"
+subtitle: ""
+date: 2023-04-26T20:00:00+08:00
+draft: false
+author: "Mebius"
+authorLink: ""
+---
+
+Chapter 3: 46, 47, 60, 61, 50, 51
+
+Chapter 4: 4, 5, 6, 7, 8
+
+## 作业答案
+### 3-46
+
+求解理想气体为工质 p-V 图中热机效率的是非常重要且简单的，其计算公式为
+
+$$
+\eta=\frac{W}{Q_{吸}}=1－\frac{Q_放}{Q_吸}
+$$
+
+我一般把这种题目的步骤分为两部分：
+1. **确定循环过程中吸放热的变化点**
+2. 计算 p-V 图中关键点的状态量
+3. 计算循环的吸热和放热，或吸热和做功
+
+需要注意的是，吸放热的变化点并不一定是 p-V 图中尖锐的顶点。需要依据热力学第一定律确定。而对于第二部分则有多种方法和技巧，其中通法仍是使用热力学第一定律。
+
+然后是掌握等压、等温、等体、绝热四种过程的计算。四种过程中，等压和等体过程的吸热放热，做功是容易计算的；等温过程的做功需要用到简单的微积分，利用热力学第一定律，对理想气体其内能只与温度有关，故吸热与对外做功相等：
+$$
+Q=W=\int_{V_1}^{V_2} p \, dV= nRT \int_{V_1}^{V_2} \frac{1}{V} \, dV=nRT\ln(V_2/V_1) 
+$$
+而对绝热过程，直接计算做功较为复杂容易出错，我建议大家使用绝热方程 $pV^\gamma=Const$ 计算初末态温度，再通过温度来计算内能变化，结合绝热过程不吸放热，所以外界对气体做功等于气体内能的增加。
+
+最后提供一些实用的小结论：循环对外做功 W 就是 p-V 图中的体积；循环的效率只与循环在 p-V 图中的“形状”有关，与 p，V 的相对大小无关。
+
+
+回到本题，循环过程中，气体在 c->a->b 吸热， b->c 放热。一个循环内吸热为
+$$
+Q_{吸}=Q_{ca}+Q_{ab}=nC_V(T_a-T_b)+nRT_a\ln(V_b/V_a)=\frac{3}{2}p_cV_c+2p_cV_c\ln2
+$$
+而放热为
+$$
+Q_{放}=-Q_{bc}=nC_p(T_b-T_c)=\frac{5}{2}p_cV_c
+$$
+其中用到了单原子气体的等压热容和等体热容
+$$
+C_V=\frac{3}{2}R,~ C_p=\frac{5}{2}R
+$$
+综合吸放热的结果，该热机的效率为
+$$
+\eta=1-\frac{Q_{放}}{Q_{吸}}=1-\frac{2.5}{1.5+2\ln 2}=13.384\%
+$$
+
+### 3-47
+
+由于循环过程中 AB、CD 为绝热过程，所以整个循环中只有 B->C 吸热，D->A 放热，所以有
+$$
+Q_{1}=nC_{p}(T_{c}-T_{b}), ~Q_{2}=nC_{V}(T_{D}-T_{A})
+$$
+其中 Q1，Q2 分别为吸放热。对于绝热过程有
+$$
+TV^{\gamma-1}=Const
+$$
+其中
+$$
+\gamma=\frac{C_{p}}{C_{V}}
+$$
+故有
+$$
+V_{2}T_{B}^{\gamma-1}=V_{1}T_{A}^{\gamma-1},~V_{3}T_{C}^{\gamma-1}=V_{1}T_{D}^{\gamma-1}
+$$
+同时对于 BC 有等压过程，由理想气体的状态方程易得
+$$
+T_{C}=T_{B} \frac{V_{3}}{V_{2}}
+$$
+综合上述推导，我们整理得到
+$$
+\eta=1-\frac{Q_{2}}{Q_{1}} = 1-\frac{\left( \frac{V_{3}}{V_{2}} \right)^{\gamma-1}-1}{\gamma \left( \frac{V_{1}}{V_{2}} \right)^{\gamma-1}\left( \frac{V_{3}}{V2}-1 \right)}
+$$
+
+### 3-60
+
+（1）由卡诺定律，制冷机最大吸热为
+$$
+Q_{2}=\varepsilon W=(\eta^{-1}-1)W=\left((1-\frac{T_2}{T_1})^{-1}-1\right)W=12.18J
+$$
+（2）室内得到的热量即为电阻丝加热需要的电能
+$$
+Q_{1}=\eta^{-1}W=13.18J
+$$
+在本题中我们认为这些电能全部转化为热能。
+（3）向室内传送的热量为
+$$
+Q_{1}=\eta^{-1}W=\left( 1-\frac{T_{2}}{T_{1}} \right)^{-1}W
+$$
+上式说明，制冷机输送的热量反比于卡诺热机效率。当室外温度即 T2 降低后，卡诺热机的效率 $\eta$ 升高，所以输送的热量减少。
+
+### 3-61
+
+房间气温达到最低 T 时，房间的吸热为
+$$
+Q_{吸}=B(T_1-T)
+$$
+其中室外温度 T1=310K，此时房间的放热为
+$$
+Q_{放} = \varepsilon W_{有效} = 0.9 \varepsilon W_{输入}
+$$
+其中制冷机系数为
+$$
+\varepsilon=\frac{1}{2} \frac{T_{1}}{T_{1}-T}
+$$
+房间的吸放热平衡得到
+$$
+T=296.2K~or~324.4K
+$$
+由于房间温度低于室外，我们略去没有物理意义的解，综上
+$$
+T=296.2K
+$$
+### 3-50
+分别运用卡诺定理即可，对于第一个热机有
+$$
+\eta_{1}=\frac{W_{1}}{Q_{1}}=1-\frac{T_{1}}{T_{2}}
+$$
+对于第二个热机有
+$$
+\eta_{2}=\frac{W_{2}}{Q_{3}}=1-\frac{T_{3}}{T_{2}}
+$$
+由题意，中间的热源只有吸热和放热，这说明
+$$
+Q_{2}=Q_{3}
+$$
+所以有
+$$
+\frac{W_{1}+W_{2}}{Q_{1}}=\eta_{1}+\frac{W_{2}}{Q_{2}} \frac{Q_{2}}{Q_{1}}=\eta_{1}+\frac{W_{2}}{Q_{3}}\left( 1-\frac{W_{1}}{Q_{1}} \right)=\eta_{1}+\eta_{2}(1-\eta_{1})=1-\frac{T_{3}}{T_{1}}
+$$
+
+### 3-51
+与 3-50 相似，这种类似多个热机的组合情形，分别分析各个热机和热机间的等量关系即可。对于本题，其中热机有
+$$
+\frac{Q_{2}}{Q_{1}}=\frac{T_{2}}{T_{1}}, \quad\frac{~W}{Q_{1}}=1-\frac{T_{2}}{T_{1}}=\eta_{1}
+$$
+而对于制冷机则有
+$$
+\frac{W}{Q_{2}'}=1-\frac{T_{3}}{T_{2}}=\eta_{2}
+$$
+联立即得
+$$
+\eta = \frac{Q_{2}+Q_{2}'}{Q_{1}}=\frac{T_{2}}{T_{1}}+\frac{\eta_{1}}{\eta_{2}}=\frac{333}{483}+\frac{1-\frac{333}{483}}{1-\frac{288}{333}}=2.98
+$$
+这说明暖气系统中水得到的热量为煤发热的 2.98 倍，数值为
+$$
+Q=2.98\times 3.34\times 10^7J=9.98\times 10^7J
+$$
+
+### 4-4
+
+首先回忆范氏气体的状态方程
+$$
+\left( p-\frac{a}{\nu^2} \right)(\nu-b)=RT
+$$
+参考教材 P168-170，我们有
+$$
+\left( \frac{ \partial U }{ \partial V }  \right)_{T}=T\left( \frac{ \partial p }{ \partial T }  \right)_{V}-p
+$$
+这个关系式对任意物体都成立。
+
+我们将 1 mol 范德瓦尔斯气体的内能视为 V 和 T 的函数（由于是 1mol 气体有 $V=\nu$），则其全微分为
+$$
+dU=C_{V}dT+\left[T\left( \frac{ \partial p }{ \partial T }  \right)_{V}-p\right]dV=C_{V}dT+\left(\frac{RT}{V-b}-p\right)dV=C_{V}dT+\frac{a}{V^2}dV
+$$
+两边积分即得
+$$
+U_{2}=U_{1}+C_{V}(T_{2}-T_{1})+a\left( \frac{1}{V_{1}}-\frac{1}{V_{2}} \right)
+$$
+需要注意的是，这里需要我们默认 Cv 是随温度不变的常数，但对于实际的气体是不成立的！例如只有在一定温度以上，气体的振动能级才会被激发出来。
+
+### 4-5
+我们仍然认为范氏气体的热容不随温度变化。由热力学第二定律
+$$
+0=\mathrm{d}{\kern{-8mu}\overline{\tiny{\phantom{t\ }}}}Q=dU+pdV=\left(C_{V}dT+\left(\frac{RT}{V-b}-p\right)dV\right)+pdV=C_{V}dT+\frac{RT}{V-b}dV
+$$
+分离变量得
+$$
+C_{V} \frac{dT}{T}+\frac{R}{V-b}dV=0
+$$
+积分得
+$$
+T(V-b)^{R/C_{V}}=Const
+$$
+### 4-6
+参考教材 P 168-170，我们有
+$$
+\left( \frac{ \partial U }{ \partial V }  \right)_{T}=T\left( \frac{ \partial p }{ \partial T }  \right)_{V}-p
+$$
+以及
+$$
+C_{p}=C_{V}+T\left( \frac{ \partial p }{ \partial T }  \right)_{V}\left( \frac{ \partial V }{ \partial T }  \right)_{p}
+$$
+这个两个关系式对任意物体都成立。
+
+
+（1）由热力学第一定律
+$$
+\begin{align}
+\mathrm{d}{\kern{-8mu}\overline{\tiny{\phantom{t\ }}}}Q&=dU+pdV \\
+&=\left[\left( \frac{ \partial U }{ \partial p }  \right)_{p}dT+\left( \frac{ \partial U }{ \partial p }  \right)_{T}dp\right] + 
+p\left[\left( \frac{ \partial V }{ \partial T }  \right)_{p}dT + \left( \frac{ \partial V }{ \partial p }  \right)_{T}dp\right] \\
+&=\left[\left( \frac{ \partial U }{ \partial p }  \right)_{p}+p\left( \frac{ \partial V }{ \partial T }  \right)_{p}\right]dT + 
+\left[\left( p\frac{ \partial V }{ \partial p }  \right)_{T}+\left( \frac{ \partial U }{ \partial p }  \right)_{T}\right]dp \\
+\end{align}
+$$
+（2）对定压热容有
+$$
+C_{p}=\left( \frac{\mathrm{d}{\kern{-8mu}\overline{\tiny{\phantom{t\ }}}}Q}{dT} \right)_{p}=\left( \frac{ \partial U }{ \partial T }  \right)_{p}+p\left( \frac{ \partial V }{ \partial T }  \right)_{p}
+$$
+这里采取了更容易理解的写法，更准确的写法应该应用气体的 H。总之，由定压热容的表达式
+$$
+\begin{align}
+\left( \frac{ \partial U }{ \partial T }  \right)_{p}
+&=C_{p}-p\left( \frac{ \partial V }{ \partial T }  \right)_{p} \\
+&=C_{p}-\frac{1}{V}\left( \frac{ \partial V }{ \partial T }  \right)_{p}pV \\
+&=C_{p}-\alpha pV
+\end{align}
+$$
+（3）与第二问类似，从左到右的推理比较困难，我们化简左式即可
+$$
+\begin{align}
+pV\beta-(C_{p}-C_{V}) \frac{\beta}{\alpha}&=p\left( \frac{ \partial V }{ \partial p } \right)_{T}-T\left( \frac{ \partial p }{ \partial T }  \right)_{V}\left( \frac{ \partial V }{ \partial T }  \right)_{p}\frac{-\frac{1}{V}\left( \frac{ \partial V }{ \partial p } \right)_{T}}{\frac{1}{V}\left( \frac{ \partial V }{ \partial T }  \right)_{p}} \\
+
+&=-p\left( \frac{ \partial V }{ \partial p } \right)_{T} + T\left( \frac{ \partial p }{ \partial T }  \right)_{V}\left( \frac{ \partial V }{ \partial p } \right)_{T} \\
+&=\left( \frac{ \partial V }{ \partial p } \right)_{T}\left[T\left( \frac{ \partial p }{ \partial T }  \right)_{V}-p\right] \\
+&=\left( \frac{ \partial V }{ \partial p } \right)_{T}\left( \frac{ \partial U }{ \partial V }  \right)_{T} \\
+&=\left( \frac{ \partial U }{ \partial p }  \right)_{T}
+\end{align}
+$$
+即所求。
+
+### 4-7
+参考教材 P 168-170，我们有
+$$
+\left( \frac{ \partial U }{ \partial V }  \right)_{T}=T\left( \frac{ \partial p }{ \partial T }  \right)_{V}-p
+$$
+关系式对任意物体都成立。
+
+对于本体有 $p=\frac{1}{3}aT^4$，带入上式即可
+$$
+\begin{align}
+u=\left( \frac{ \partial U }{ \partial V }  \right)_{T}=T\left( \frac{ \partial p }{ \partial T }  \right)_{V}-p=\frac{4}{3}aT^4-\frac{1}{3}aT^4=aT^4
+\end{align}
+$$
+也即黑体辐射定律。
+
+### 4-8
+（1）对于卡诺热机有
+$$
+\frac{W}{Q_{1}}=\eta=1-\frac{T_{2}}{T_{1}}
+$$
+所以
+$$
+\frac{dQ_{1m}}{dt}=\frac{1}{\eta} \frac{dW}{dt}=\frac{T_{1}}{T_{1}-T_{2}} \frac{dW}{dt}
+$$
+（2）考虑房间的吸放热平衡
+$$
+\alpha(T_{2}-T_{1})=\frac{T_{1}}{T_{1}-T_{2}} \frac{dW}{dt}
+$$
+解得
+$$
+T_{1}=T_{2}+\frac{1}{2\alpha} \frac{dW}{dt}\left[1\pm\sqrt{ 1+4\alpha T_{2} / \frac{dW}{dt}}\right]
+$$
+由于 T1>T2 ,我们保留具有物理意义的解，故答案为
+$$
+T_{1}=T_{2}+\frac{1}{2\alpha} \frac{dW}{dt}\left[1+\sqrt{ 1+4\alpha T_{2} / \frac{dW}{dt}}\right]
+$$

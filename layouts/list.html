@@ -1,0 +1,3 @@
+{{ range where .Site.RegularPages "Section" "!=" "" }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
