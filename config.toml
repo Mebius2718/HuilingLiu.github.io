@@ -1,4 +1,4 @@
-baseURL = "huilingliu.github.io"
+baseURL = "mebius2718.github.io"
 relativeURLs = false
 # uglyURLs = false
 
@@ -37,7 +37,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Mebius"
   email = "lhl2718281@mail.ustc.edu.cn"
-  link = "huilingliu.github.io"
+  link = "mebius2718.github.io"
 
 [params]
   # 网站默认主题样式 ["auto", "light", "dark"]
