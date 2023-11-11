@@ -22,7 +22,7 @@ In preparation...
 ## Teaching Assistant
 
 * **Fall 2022**： **Classical Mechanics** lectured by Prof. Yi Wang
-* **Spring 2023**： [**Thermal Physics**](../thermal-physics) lectured by Prof. Hong Zhu
+* **Spring 2023**： [**Thermal Physics**](../thermal-physics/intro) lectured by Prof. Hong Zhu
 
 ---
 

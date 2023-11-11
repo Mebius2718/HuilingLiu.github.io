@@ -4,7 +4,7 @@ github:
   Prefix: https://github.com/
   Title: GitHub
   Icon:
-    Class: fab fa-github-alt fa-fw
+    Class: fa-brands fa-github
 
 # 002: LinkedIn
 linkedin:
@@ -509,3 +509,27 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+# 065: School
+school:
+  Weight: 65
+  Prefix: 
+  Title: School
+  Icon:
+    Class: fa-solid fa-school
+
+# 066: CV
+cv:
+  Weight: 66
+  Prefix: 
+  Title: CV
+  Icon:
+    Class: fa-solid fa-user-graduate
+
+# 067: Grade
+grade:
+  Weight: 67
+  Prefix: 
+  Title: Grade
+  Icon:
+    Class: fa-solid fa-award

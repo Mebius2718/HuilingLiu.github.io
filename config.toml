@@ -185,6 +185,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Instagram = ""
     Facebook = ""
     Telegram = ""
+    Email = "lhl2718281@mail.ustc.edu.cn"
     cv = "/docs/HuilingLiu_CV.pdf"
     grade = "/docs/grade.pdf"
     school = "https://en.ustc.edu.cn/"

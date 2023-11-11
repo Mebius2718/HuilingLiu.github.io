@@ -17,7 +17,7 @@
 <h2 id="teaching-assistant">Teaching Assistant</h2>
 <ul>
 <li><strong>Fall 2022</strong>： <strong>Classical Mechanics</strong> lectured by Prof. Yi Wang</li>
-<li><strong>Spring 2023</strong>： <a href="../thermal-physics" rel=""><strong>Thermal Physics</strong></a>
+<li><strong>Spring 2023</strong>： <a href="../thermal-physics/intro" rel=""><strong>Thermal Physics</strong></a>
  lectured by Prof. Hong Zhu</li>
 </ul>
 <hr>
