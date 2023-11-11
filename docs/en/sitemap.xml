@@ -129,6 +129,7 @@
                     hreflang="en"
                     href="https://mebius2718.github.io/courses/"
                     /></url><url>
+            <loc>https://mebius2718.github.io/grade/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://mebius2718.github.io/lss/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://mebius2718.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

@@ -178,7 +178,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = ""
+    GitHub = "Mebius2718"
+    ORCID  = "0009-0008-6273-8269"
     Linkedin = ""
     Twitter = ""
     Instagram = ""

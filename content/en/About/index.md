@@ -34,7 +34,7 @@ Here's my [Curriculum Vitae](../docs/HuilingLiu_CV.pdf).
 ![Model ESD](../images/satellite.jpg "Model ESD ")
 
 #### Sep2023-Now
-* **Topic:** Halo ellipticity measurement on DESI galaxies through weak lensing
+* **Topic:** Halo Ellipticity Measurement in DESI Galaxies via Weak Lensing Analysis
 * **Credit:** First contributor.
 * **Supervisor:** [Prof. Alexie Leauthaud (UCSC)](https://alexie.sites.ucsc.edu/)
 * **Aims:** Understand the shape and distribution of dark matter halos around galaxies. Providing constraints on the IA(Intrinsic Alignment) model.
@@ -81,7 +81,7 @@ The universe is strong, but life is stronger.[^1] As a beginner of astronomy and
 #### Nov2023
 * **Topic:** Cosmos intrinsic alignment and halo ellipticity measurement
 * **Place:** University of California Santa Cruz, Department of Astronomy, Santa Cruz, US
-* **Abstract:** In this talk, I introduce my research on ["Halo ellipticity measurement"]()
+* **Abstract:** In this talk, I introduce my research on ["Halo Ellipticity Measurement in DESI Galaxies via Weak Lensing Analysis"]()
 
 ---
 
@@ -94,7 +94,7 @@ The universe is strong, but life is stronger.[^1] As a beginner of astronomy and
 ---
 
 ## Couses
-This is my [scholastic record](../docs/grade.pdf), or you can go to this [page](../courses) to see my major courses and grades.
+This is my [scholastic record](../docs/grade.pdf), or you can go to this [page](../grade) to see my major courses and grades.
 
 ---
 
@@ -107,7 +107,7 @@ This is my [scholastic record](../docs/grade.pdf), or you can go to this [page](
 ---
 ## Teaching Assistant
 * **Fall 2022**： **Mechanics** Lectured by Prof. Yi Wang
-* **Spring 2023**：[**Thermal Physics**](../courses/thermal-physics/intro/) Lectured by Prof. Hong Zhu
+* **Spring 2023**：[**Thermal Physics**](../thermal-physics/intro/) Lectured by Prof. Hong Zhu
 
 ---
 ## Hobbies
