@@ -171,12 +171,12 @@ $$
 $$
 \nu = \frac{RT}{p}(1+pB(T))
 $$
-其中体膨胀系数有
+其中体膨胀系数为
 
-$$ \alpha=\frac{1}{V}\left( \frac{ \partial V }{ \partial T } \right)_{p}
+$$ \alpha=\frac{1}{V}\left( \frac{ \partial V }{ \partial T } \right)
 = \frac{1}{p\nu} \left( R(1+Bp) + RTp\frac{dB}{dT}\right) 
 = \frac{1}{T} + \frac{p}{1+Bp}\frac{dB}{dT} $$
-等温压缩系数有
+等温压缩系数为
 $$
 \beta=-\frac{1}{V}\left( \frac{ \partial V }{ \partial p }  \right)_{T}
 = \frac{1}{p(1+Bp)}

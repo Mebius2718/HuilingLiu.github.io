@@ -139,12 +139,12 @@ $$
 $$
 参考教材 P168-170，我们有
 $$
-\left( \frac{ \partial U }{ \partial V }  \right)<em>{T}=T\left( \frac{ \partial p }{ \partial T }  \right)</em>{V}-p
+\left( \frac{ \partial U }{ \partial V }  \right)_T = T \left( \frac{ \partial p }{ \partial T }  \right)_V-p
 $$
 这个关系式对任意物体都成立。</p>
 <p>我们将 1 mol 范德瓦尔斯气体的内能视为 V 和 T 的函数（由于是 1mol 气体有 $V=\nu$），则其全微分为
 $$
-dU=C_{V}dT+\left[T\left( \frac{ \partial p }{ \partial T }  \right)<em>{V}-p\right]dV=C</em>{V}dT+\left(\frac{RT}{V-b}-p\right)dV=C_{V}dT+\frac{a}{V^2}dV
+dU=C_{V}dT+\left[T \left( \frac{ \partial p }{ \partial T }  \right)-p\right]dV=C_{V}dT+\left(\frac{RT}{V-b}-p\right)dV=C_{V}dT+\frac{a}{V^2}dV
 $$
 两边积分即得
 $$
