@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: /sitemap.xml
+Sitemap: https://mebius2718.github.io/sitemap.xml

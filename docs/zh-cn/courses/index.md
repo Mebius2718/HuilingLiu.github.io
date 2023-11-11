@@ -11,7 +11,7 @@
             <div class="admonition-content"><figure><a class="lightgallery" href="../../images/sleep.jpg" title="../../images/sleep.jpg" data-thumbnail="../../images/sleep.jpg" data-sub-html="<h2>这下躺平了</h2>">
         <img
             class="lazyload"
-            src="/mebius2718.github.io/svg/loading.min.svg"
+            src="/svg/loading.min.svg"
             data-src="../../images/sleep.jpg"
             data-srcset="../../images/sleep.jpg, ../../images/sleep.jpg 1.5x, ../../images/sleep.jpg 2x"
             data-sizes="auto"

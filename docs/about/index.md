@@ -29,7 +29,7 @@
 <figure><a class="lightgallery" href="../images/satellite.jpg" title="Model ESD" data-thumbnail="../images/satellite.jpg" data-sub-html="<h2>Model ESD </h2><p>Model ESD</p>">
         <img
             class="lazyload"
-            src="/mebius2718.github.io/svg/loading.min.svg"
+            src="/svg/loading.min.svg"
             data-src="../images/satellite.jpg"
             data-srcset="../images/satellite.jpg, ../images/satellite.jpg 1.5x, ../images/satellite.jpg 2x"
             data-sizes="auto"
