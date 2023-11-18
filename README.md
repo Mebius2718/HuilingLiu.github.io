@@ -35,4 +35,4 @@ git commit -m "version"
 # push to github:
 git push --set-upstream origin my-new-branch-name
 ```
-This will create a new branch on github, which you can then make a pull request for on github. Once your branch is pulled into `main`, the [My Homepage](Mebius2718.github.io) website will be automatically updated within a few minutes.
+This will create a new branch on github, which you can then make a pull request for on github. Once your branch is pulled into `main`, the [My Homepage](https://Mebius2718.github.io/) website will be automatically updated within a few minutes.

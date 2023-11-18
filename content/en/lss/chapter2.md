@@ -2,11 +2,10 @@
 title: "第二章 线性理论"
 subtitle: ""
 date: 2023-7-16T20:00:00+08:00
-draft: false
 author: "Mebius"
 authorLink: ""
-hiddenFromHomePage: False
-draft: False
+hiddenFromHomePage: True
+draft: True
 ---
 
 *昔日曾见此湖图，不信人间有此湖。*

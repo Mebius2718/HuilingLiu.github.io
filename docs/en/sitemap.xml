@@ -1,70 +1,141 @@
-&lt;?xml version="1.0" encoding="UTF-8"?>
-
-<url>
-  <loc>https://mebius2718.github.io/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/about/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/courses/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/phys422/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/album/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/thermal-physics/intro/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/phys422/lensing/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/phys422/physics422/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/thermal-physics/hw1/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/thermal-physics/hw2/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/thermal-physics/hw4/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/thermal-physics/hw8/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://mebius2718.github.io/thermal-physics/lesson/</loc>
-  <lastmod>2023-11-11T05:29:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://mebius2718.github.io/thermal-physics/</loc><lastmod>2023-06-07T20:00:00&#43;08:00</lastmod><priority>0</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/thermal-physics/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/thermal-physics/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/</loc><lastmod>2023-06-07T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/thermal-physics/hw8/</loc><lastmod>2023-06-07T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/thermal-physics/hw8/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/thermal-physics/hw8/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/thermal-physics/lesson/</loc><lastmod>2023-05-28T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/thermal-physics/lesson/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/thermal-physics/lesson/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/phys422/lensing/</loc><lastmod>2023-05-09T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/phys422/lensing/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/phys422/lensing/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/phys422/</loc><lastmod>2023-05-09T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/phys422/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/phys422/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/thermal-physics/hw4/</loc><lastmod>2023-04-26T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/thermal-physics/hw4/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/thermal-physics/hw4/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/thermal-physics/hw2/</loc><lastmod>2023-04-07T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/thermal-physics/hw2/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/thermal-physics/hw2/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/thermal-physics/hw1/</loc><lastmod>2023-03-29T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/thermal-physics/hw1/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/thermal-physics/hw1/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/thermal-physics/intro/</loc><lastmod>2023-03-05T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mebius2718.github.io/phys422/physics422/</loc><lastmod>2022-05-08T20:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/phys422/physics422/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/phys422/physics422/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/about/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/about/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/album/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/album/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/album/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/categories/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/courses/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/courses/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/courses/"
+                    /></url><url>
+            <loc>https://mebius2718.github.io/grade/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://mebius2718.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://mebius2718.github.io/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://mebius2718.github.io/tags/"
+                    /></url></urlset>

@@ -1,6 +1,6 @@
 ---
 title: Grades
-hiddenFromHomePage: False
+hiddenFromHomePage: True
 draft: False
 ---
 
