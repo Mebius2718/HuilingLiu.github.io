@@ -85,10 +85,9 @@
 </ul>
 <h4 id="nov2023">Nov2023</h4>
 <ul>
-<li><strong>Topic:</strong> Cosmos intrinsic alignment and halo ellipticity measurement</li>
+<li><strong>Topic:</strong> Probing halo ellipticity through weak gravititional lensing</li>
 <li><strong>Place:</strong> University of California Santa Cruz, Department of Astronomy, Santa Cruz, US</li>
-<li><strong>Abstract:</strong> In this talk, I introduce my research on <a href="" rel="">&ldquo;Halo Ellipticity Measurement in DESI Galaxies via Weak Lensing Analysis&rdquo;</a>
-</li>
+<li><strong>Abstract:</strong> In this talk, I will introduce our latest progress in measuring halo ellipticity. We have upgraded the dsigma package, enabling us to analyze the weak gravitational lensing signal&rsquo;s second-order angular components to accurately measure halo ellipticity. This enhanced method was tested using mock data. We also applied this enhanced methodology to evaluate the influence of satellite galaxies in the lens sample. In the future, we plan to measure the halo ellipticity of Brightest Cluster Galaxies (BCGs) using data from the Dark Energy Spectroscopic Instrument (DESI). This will provide insights into the intrinsic alignment (IA) model, thereby increasing the accuracy of our cosmological parameter measurements.</li>
 </ul>
 <hr>
 <h2 id="skills">Skills</h2>

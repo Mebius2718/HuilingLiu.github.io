@@ -79,9 +79,9 @@ The universe is strong, but life is stronger.[^1] As a beginner of astronomy and
 * **Abstract:** In this talk, I introduce my research on ["The Duty Cycle of Radio Galaxies."]()
 
 #### Nov2023
-* **Topic:** Cosmos intrinsic alignment and halo ellipticity measurement
+* **Topic:** Probing halo ellipticity through weak gravititional lensing
 * **Place:** University of California Santa Cruz, Department of Astronomy, Santa Cruz, US
-* **Abstract:** In this talk, I introduce my research on ["Halo Ellipticity Measurement in DESI Galaxies via Weak Lensing Analysis"]()
+* **Abstract:** In this talk, I will introduce our latest progress in measuring halo ellipticity. We have upgraded the dsigma package, enabling us to analyze the weak gravitational lensing signal's second-order angular components to accurately measure halo ellipticity. This enhanced method was tested using mock data. We also applied this enhanced methodology to evaluate the influence of satellite galaxies in the lens sample. In the future, we plan to measure the halo ellipticity of Brightest Cluster Galaxies (BCGs) using data from the Dark Energy Spectroscopic Instrument (DESI). This will provide insights into the intrinsic alignment (IA) model, thereby increasing the accuracy of our cosmological parameter measurements.
 
 ---
 
