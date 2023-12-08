@@ -63,7 +63,7 @@
 <li>The physics and evolution of active galactic nuclei</li>
 <li>Gravitational lensing</li>
 <li>Cosmological simulation</li>
-<li>AI x Astropy</li>
+<li>AI x Astronomy</li>
 <li>More&hellip;</li>
 </ul>
 <p>The universe is strong, but life is stronger.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> As a beginner of astronomy and astrophysics, I am always glad to make the leap into areas that are wider and unfamiliar.</p>

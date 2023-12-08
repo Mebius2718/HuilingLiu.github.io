@@ -55,7 +55,7 @@ Here's my [Curriculum Vitae](../docs/HuilingLiu_CV.pdf).
 * The physics and evolution of active galactic nuclei
 * Gravitational lensing
 * Cosmological simulation
-* AI x Astropy
+* AI x Astronomy
 * More...
 
 The universe is strong, but life is stronger.[^1] As a beginner of astronomy and astrophysics, I am always glad to make the leap into areas that are wider and unfamiliar.
